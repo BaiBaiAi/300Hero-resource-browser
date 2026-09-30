@@ -1,0 +1,11 @@
+本目录使用以下社区项目：
+
+pixi-live2d-display，MIT License
+https://github.com/guansss/pixi-live2d-display
+
+PixiJS，MIT License
+https://github.com/pixijs/pixijs
+
+Cubism 2 WebGL Runtime（Live2D Inc.）
+来源链接由 pixi-live2d-display 项目文档提供：
+https://github.com/dylanNew/live2d/tree/master/webgl/Live2D/lib

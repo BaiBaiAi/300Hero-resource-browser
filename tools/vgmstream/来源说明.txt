@@ -1,0 +1,5 @@
+vgmstream r2117 官方 Windows 64 位发布版
+来源：https://github.com/vgmstream/vgmstream/releases/tag/r2117
+下载：https://github.com/vgmstream/vgmstream/releases/download/r2117/vgmstream-win64.zip
+下载包 SHA-256（已与官方发布页核对）：6c4a8a3813864fefed081bbd337dbc0ad93bf88e0b92f5db98d7ab258b22dc6c
+保留 COPYING 和运行 DLL。程序调用命令行工具将 FSB 音轨解码成 PCM16 WAV，不使用 FMOD SDK。

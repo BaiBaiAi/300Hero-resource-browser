@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "300hero-resource-browser"
+version = "1.0.1"
+description = "300英雄 JMP 全包资源浏览器"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["Pillow>=10.0", "numpy>=1.26"]
+
+[project.scripts]
+300hero-resource-browser = "app:main"
+
+[tool.setuptools]
+py-modules = [
+  "app", "audio_backend", "catalog", "dat_table_backend", "eg3d_backend",
+  "jmp_core", "jumpx_backend", "live2d_backend", "model_backend",
+  "resource_inspector", "settings_store"
+]
